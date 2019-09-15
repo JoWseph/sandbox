@@ -16,6 +16,13 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+# ADDED BY ME ON THIS PROJECT
+# Secure ENV variables
+gem 'figaro'
+
+#Wraper for mailjet API v3
+gem 'mailjet'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
